@@ -1,0 +1,48 @@
+2026-10-13 — latest visual acceptance criteria
+
+ACTIVE: Name on the seal must be 清華大學 / TSINGHUA UNIVERSITY, not Naiwa.
+ACTIVE: Retain current tilt, mascot scale, rotation cadence and fullscreen wipe.
+ACTIVE: Seal must have collegiate emblem structure, not a painted solid disk.
+ACTIVE: Full, detailed border; subdued center; gate centered symmetrically.
+ACTIVE: Complete eight-sector motto ring. Overall harmony takes priority over
+keeping the gate visible while the mascot is standing in front of it.
+ACTIVE: Inner seal, gate and outer name band rotate in sync, with identical
+origin, angle and timing; all remain visible through the final leap until wiped.
+ACTIVE: V9 keeps V6 entry/exit choreography, with a subtle speed increase from
+V8: 1.44 seconds/revolution (about 7% faster). Mascot bounce remains .77s.
+ACTIVE: Header and purple-wipe title use identical outlined brush lettering,
+Zhi Mang Xing, in the spirit of the Tsinghua gate inscription; no exact-font claim.
+Purple ink #49316a on the header, pale lettering on the transition.
+V10 title width 310–410px, capped to available space; short screens use 300px.
+Transition title container 850px with 16–40px inset.
+SUPERSEDED: V7's 3.2-second rest rotation and suction/stretch/ripples felt too
+slow and did not fit the mascot's rhythm. Remove these additions entirely.
+SUPERSEDED: One revolution per .77-second bounce: too fast to inspect detail.
+SUPERSEDED: Offset gate in upper right and incomplete motto band: asymmetric.
+SUPERSEDED: Solid purple annulus with white lettering (V3): reads as a disk.
+SUPERSEDED: Plain sparse ring and tiny isolated gate: too empty, weak identity.
+
+Primary references inspected:
+https://中国奶龙大学.com/ -> https://nailong.dykey.net/
+  Name ring, high-contrast border hierarchy, mascot as the inner focal point.
+https://www.tsinghua.edu.cn/info/1181/51525.htm
+https://www.tsinghua.edu.cn/__local/C/B6/1C/5682B1124834BFE4B7BB43744CF_C7C409E3_C2FAA.pdf
+  Appendix page 15: braided perimeter, traditional Chinese, English/year,
+  concentric frames and radially divided motto band.
+
+Source-to-target decisions:
+- Preserve: the reference distinction between structured outer seal and mascot.
+- Adapt: braided edge, double text band, traditional Chinese lettering, motto
+  compartments, year, quiet gate element. Use dusty violet and pale annular paper.
+- Replace: official center star with mascot and secondary original gate drawing.
+- Omit: broad purple filled disk, material shading, extra UI captions.
+- All paths independently drawn. No reference artwork or code copied.
+- Arphic Kaiti / Liberation Serif glyphs outlined using tools/build-emblem.py;
+  all lettering is local SVG, without font downloads or mobile font substitution.
+
+Validation: inspect standalone seal plus mascot composition as vector renders;
+ensure name, rope edge and compartment hierarchy remain visible at small size.
+Retain mascot choreography. V6 connects both SVG groups to the shared rotation
+and removes the independent inner-layer fade. V1 archive remains frozen.
+Browser launch is unavailable in this environment; do not present vector renders
+as live browser screenshots or claim native elastic scrolling has been tested.

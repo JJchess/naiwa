@@ -1,0 +1,26 @@
+Mode: built-in image_gen, ui-mockup; concept only, not deployed UI.
+Output: ../../../delivery/naiwa-campus-concept-v1.png
+Identity reference: ../../dist/assets/naiwa-graduate.png
+
+Use case: ui-mockup.
+Create ONE polished high-fidelity desktop website concept reference image, landscape 16:10, for a playful Chinese fictional university promotional site, “奶蛙职业技术学院”. This is an art-directed, believable frontend homepage mockup, not a poster, not an infographic, not a presentation slide, no device frame or browser chrome.
+
+Input image is ONLY the character identity reference. Preserve this exact mascot species and face: plump pear-shaped yellow body, cream belly, protruding round green eyes with dark pupils, expressive wide smiling mouth with small teeth, brown hands and feet, small tail. Do NOT turn it into a conventional green frog, duck, bear or generic monster. Render all department variants as the same recognizable character family. Graduation cap in dark plum can be retained for the main host.
+
+Art direction: a premium interactive toy-world campus, precision-crafted like an exceptional creative studio website. Sophisticated, joyful and gently absurd. Pale lavender background #eeeaf8, deep ink-violet #49316a typography, translucent frosted lilac acrylic architecture, buttery yellow mascots, occasional sage-green detail. High-end physically rendered 3D, soft daylight, beautiful ambient occlusion, restrained reflections, tactile matte characters and impeccable material contrast. Cohesive theatrical lighting, exceptional fine details, clean hierarchy. No generic neon cyberpunk, black background, rainbow gradients, generic SaaS bento cards or cluttered tiny type.
+
+Layout:
+A slim restrained top navigation: left a small original violet seal icon and the exact Chinese brush-script wordmark “奶蛙职业技术学院”; right simple neat sans-serif Chinese navigation “逛校园” “院系图鉴” “我的纪念册”, plus a very small sound icon.
+The hero takes nearly the whole canvas. Upper-left a spacious but compact editorial headline in big confident Chinese typography “奶蛙校园开放日”, with one small simple action “进入校园 ↗”. Below it a modest row of four selectable discipline labels “机械” “建筑” “计算机” “艺术”. Ample breathing room but not a huge blank panel. The artwork should dominate about 70% of screen space, partially wrap behind the title area without obscuring text.
+Central and right: a spectacular coherent miniature campus on one sculptural elevated pale lavender terrain/plinth, in a 3/4 perspective view, closer to an exquisite museum diorama than a floating sci-fi island. Four interconnected department ateliers along a continuous curved purple campus walkway. One proud graduation-cap host Naiwa is larger toward the back-center, welcoming users, framed by a delicate tilted openwork purple academic medallion/arch; the ring is a backdrop accent, not an enormous filled disk and not the dominant visual.
+Four charming supporting Naiwa students integrated into the ateliers:
+- foreground-left mechanical engineering student wearing clear safety goggles, enthusiastically assembling a polished small gear mechanism; a lilac robotic arm mischievously lifts a gear nearby.
+- center-right architecture student with a rolled plan, studying a delicate white colonnade model and a beautiful exploded architectural model hovering just above its desk.
+- back-right computing student lit softly by a few tiny translucent lilac screens; geometric luminous data paths connect the workstation, avoiding cliché green code rain.
+- foreground-right art student wearing a paint-splashed apron, drawing a bold violet curve onto a standing white canvas; a flowing translucent ribbon of paint elegantly joins the campus path.
+Characters have individual poses and charming facial performances, no duplicates pasted in a row. Clear silhouettes, readable foreground/midground/background, spatial coherence, enough fine detail to reward looking closer but one dominant campus focal point. The scene reaches down near the bottom edge with attractive soft grounded shadows.
+Place only a few elegant small Chinese place labels immediately near relevant ateliers, in actual interface typography, not paragraphs. Tiny quiet footer bottom-left exact text “非官方趣味创作”. Minimal right-bottom navigation hint “探索院系 ↗”.
+
+Typography: main school wordmark is flowing hand-brushed Chinese calligraphy evoking university gate inscriptions, dark violet and cleanly legible. Other UI uses refined Chinese sans-serif. Render all specified Chinese accurately. Do not put the word Tsinghua or 清华大学 in the page title. Do not add real institutional endorsements, admissions claims, random numbers, lorem ipsum, technical explanations, art-director notes or mockup annotations.
+
+Quality target: one compelling, production-minded concept that could guide a premium bespoke interactive website; crafted composition, consistent character identity, distinct department stories, richly modeled content and restrained usable UI.

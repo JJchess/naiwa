@@ -1,0 +1,95 @@
+{
+  "utc": "2026-10-13T11:24:56.121765+00:00",
+  "results": [
+    {
+      "provider": "google",
+      "host": "xn--vhqt0ztpb01mkjgbk6bnujgj4a.com",
+      "type": "A",
+      "error": "HTTPSConnectionPool(host='dns.google', port=443): Max retries exceeded with url: /resolve?name=xn--vhqt0ztpb01mkjgbk6bnujgj4a.com&type=A (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x71843884cc20>: Failed to resolve 'dns.google' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "provider": "google",
+      "host": "xn--vhqt0ztpb01mkjgbk6bnujgj4a.com",
+      "type": "AAAA",
+      "error": "HTTPSConnectionPool(host='dns.google', port=443): Max retries exceeded with url: /resolve?name=xn--vhqt0ztpb01mkjgbk6bnujgj4a.com&type=AAAA (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x71843884d610>: Failed to resolve 'dns.google' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "provider": "google",
+      "host": "xn--vhqt0ztpb01mkjgbk6bnujgj4a.com",
+      "type": "NS",
+      "error": "HTTPSConnectionPool(host='dns.google', port=443): Max retries exceeded with url: /resolve?name=xn--vhqt0ztpb01mkjgbk6bnujgj4a.com&type=NS (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x718438d05670>: Failed to resolve 'dns.google' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "provider": "google",
+      "host": "xn--vhqt0ztpb01mkjgbk6bnujgj4a.com",
+      "type": "DS",
+      "error": "HTTPSConnectionPool(host='dns.google', port=443): Max retries exceeded with url: /resolve?name=xn--vhqt0ztpb01mkjgbk6bnujgj4a.com&type=DS (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x71843884ed50>: Failed to resolve 'dns.google' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "provider": "google",
+      "host": "www.xn--vhqt0ztpb01mkjgbk6bnujgj4a.com",
+      "type": "A",
+      "error": "HTTPSConnectionPool(host='dns.google', port=443): Max retries exceeded with url: /resolve?name=www.xn--vhqt0ztpb01mkjgbk6bnujgj4a.com&type=A (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x71843884f0b0>: Failed to resolve 'dns.google' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "provider": "cloudflare",
+      "host": "xn--vhqt0ztpb01mkjgbk6bnujgj4a.com",
+      "type": "A",
+      "error": "HTTPSConnectionPool(host='cloudflare-dns.com', port=443): Max retries exceeded with url: /dns-query?name=xn--vhqt0ztpb01mkjgbk6bnujgj4a.com&type=A (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x71843884f560>: Failed to resolve 'cloudflare-dns.com' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "provider": "cloudflare",
+      "host": "xn--vhqt0ztpb01mkjgbk6bnujgj4a.com",
+      "type": "AAAA",
+      "error": "HTTPSConnectionPool(host='cloudflare-dns.com', port=443): Max retries exceeded with url: /dns-query?name=xn--vhqt0ztpb01mkjgbk6bnujgj4a.com&type=AAAA (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x71843884f410>: Failed to resolve 'cloudflare-dns.com' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "provider": "cloudflare",
+      "host": "xn--vhqt0ztpb01mkjgbk6bnujgj4a.com",
+      "type": "NS",
+      "error": "HTTPSConnectionPool(host='cloudflare-dns.com', port=443): Max retries exceeded with url: /dns-query?name=xn--vhqt0ztpb01mkjgbk6bnujgj4a.com&type=NS (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x71843884ed50>: Failed to resolve 'cloudflare-dns.com' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "provider": "cloudflare",
+      "host": "xn--vhqt0ztpb01mkjgbk6bnujgj4a.com",
+      "type": "DS",
+      "error": "HTTPSConnectionPool(host='cloudflare-dns.com', port=443): Max retries exceeded with url: /dns-query?name=xn--vhqt0ztpb01mkjgbk6bnujgj4a.com&type=DS (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x71843884f6e0>: Failed to resolve 'cloudflare-dns.com' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "provider": "cloudflare",
+      "host": "www.xn--vhqt0ztpb01mkjgbk6bnujgj4a.com",
+      "type": "A",
+      "error": "HTTPSConnectionPool(host='cloudflare-dns.com', port=443): Max retries exceeded with url: /dns-query?name=www.xn--vhqt0ztpb01mkjgbk6bnujgj4a.com&type=A (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x71843888ce30>: Failed to resolve 'cloudflare-dns.com' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "provider": "alidns",
+      "host": "xn--vhqt0ztpb01mkjgbk6bnujgj4a.com",
+      "type": "A",
+      "error": "HTTPSConnectionPool(host='dns.alidns.com', port=443): Max retries exceeded with url: /resolve?name=xn--vhqt0ztpb01mkjgbk6bnujgj4a.com&type=A (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x71843888cbf0>: Failed to resolve 'dns.alidns.com' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "provider": "alidns",
+      "host": "xn--vhqt0ztpb01mkjgbk6bnujgj4a.com",
+      "type": "AAAA",
+      "error": "HTTPSConnectionPool(host='dns.alidns.com', port=443): Max retries exceeded with url: /resolve?name=xn--vhqt0ztpb01mkjgbk6bnujgj4a.com&type=AAAA (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x71843888d9a0>: Failed to resolve 'dns.alidns.com' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "provider": "alidns",
+      "host": "xn--vhqt0ztpb01mkjgbk6bnujgj4a.com",
+      "type": "NS",
+      "error": "HTTPSConnectionPool(host='dns.alidns.com', port=443): Max retries exceeded with url: /resolve?name=xn--vhqt0ztpb01mkjgbk6bnujgj4a.com&type=NS (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x71843884edb0>: Failed to resolve 'dns.alidns.com' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "provider": "alidns",
+      "host": "xn--vhqt0ztpb01mkjgbk6bnujgj4a.com",
+      "type": "DS",
+      "error": "HTTPSConnectionPool(host='dns.alidns.com', port=443): Max retries exceeded with url: /resolve?name=xn--vhqt0ztpb01mkjgbk6bnujgj4a.com&type=DS (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x71843884f4a0>: Failed to resolve 'dns.alidns.com' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "provider": "alidns",
+      "host": "www.xn--vhqt0ztpb01mkjgbk6bnujgj4a.com",
+      "type": "A",
+      "error": "HTTPSConnectionPool(host='dns.alidns.com', port=443): Max retries exceeded with url: /resolve?name=www.xn--vhqt0ztpb01mkjgbk6bnujgj4a.com&type=A (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x71843884fbf0>: Failed to resolve 'dns.alidns.com' ([Errno -2] Name or service not known)\"))"
+    }
+  ]
+}

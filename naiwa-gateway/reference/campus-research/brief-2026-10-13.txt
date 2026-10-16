@@ -1,0 +1,83 @@
+NAIWA CAMPUS — RESEARCH, NOT IMPLEMENTATION
+Date: 2026-10-13
+
+User brief: Evolve the redirect experience into a high-quality playful promotional
+website. Each department should have distinct character and its own Naiwa mascot.
+Research broadly before implementing. No changes to current production or V10.
+
+Active prior judgments:
+- Clean presentation, few small labels, tasteful nonofficial identity.
+- Strong emblem construction and cohesive brush title; mascot remains focal.
+- Motion follows mascot rhythm; avoid ponderous pacing and forced scrolling.
+- No elastic overscroll on root or nested containers; preserve ordinary input.
+- Public mobile accessibility is a first-class requirement, given DNS history.
+
+Open questions, asked asynchronously:
+- Tone: absurd humor, cinematic spectacle, or combination.
+- Departments: Tsinghua-inspired, fictional, or a mixture.
+Provisional direction: polished visual craft with playful content; sample discipline
+categories are creative proposals, not claims about official departments.
+
+Reviewed reference pages / creator case studies:
+1. INK Games: https://www.inkgames.com/
+   Creator: https://tympanus.net/codrops/2025/11/21/one-canvas-to-rule-them-all-how-ink-games-new-site-handles-complex-3d/
+   Adapt portal framing and objects crossing the boundary. Hybrid images/video/3D;
+   shared canvas architecture is a candidate, not a mandatory framework choice.
+2. ToyFight: https://toyfight.co/
+   Creator: https://tympanus.net/codrops/2024/06/11/case-study-toyfight-2024/
+   Adapt toy/game sensibility and optional terminal easter eggs.
+3. Choo Choo World: https://choochooworld.com/
+   Creator: https://lusion.co/projects/choo_choo_world/
+   Adapt simple creative tasks, resulting artifact, downloadable image.
+   Do not adopt its potential rotate-device requirement for this project.
+4. Bruno Simon: https://bruno-simon.com/
+   Adapt spatial discovery, direct map, optional achievements. Do not force driving
+   or complex control training to reach department content.
+5. Noomo ValenTime: https://valentime.noomoagency.com/
+   Creator: https://noomoagency.com/insights/noomo-valentime-immersive-storytelling
+   Adapt portal continuity and custom creation-to-share loop; investigate mobile
+   compatibility before choosing its WebGPU-oriented technique.
+6. The Cursed Library: https://cursed.epic.net/
+   Creator: https://tympanus.net/codrops/2025/10/31/the-art-of-play-karim-maalouls-world-of-interactive-wonder/
+   Adapt one hub leading to six distinctive worlds and a minimal-experience option.
+   Omit horror tone; mascot experience remains welcoming.
+7. iTomDev:
+   https://tympanus.net/codrops/2026/06/11/sketching-the-impossible-a-3d-portfolio-built-without-a-single-3d-model/
+   Adapt illustrated planes in spatial scenes and paint-reveal feedback for arts.
+8. Ferr Studio concept:
+   https://dribbble.com/shots/25862768-Mascot-Branding-meets-Immersive-3D-UI
+   Role: mascot-first art direction; concept page, not proven running product.
+9. Kris Anfalova concept:
+   https://dribbble.com/shots/21269901-Mascot-design-landing-page-website
+   Role: character/banner hierarchy; concept page, not runtime validation.
+10. Agnieszka Osko university concept:
+   https://dribbble.com/shots/27143984-University-Website-Redesign-Homepage-Concept
+   Role: clear programme navigation, balanced institutional information hierarchy.
+11. Igloo Inc: https://www.igloo.inc/
+   Discovery: https://www.awwwards.com/sites/igloo-inc
+   Awwwards case study timed out; live page exposes no readable content to tool.
+   Retain as a watchlist visual benchmark; do not claim its full experience tested.
+
+Recommendation:
+Build a campus open-day hub plus department theatres. Begin with one polished
+mechanical-engineering theatre and one contrasting art/architecture theatre.
+Each department needs unique silhouette/prop, setting, action, playful consequence,
+short meaningful subject content, and a shareable takeaway.
+Consistent mascot base, lighting, material, typography and navigation across scenes.
+Show content even when expensive scene rendering is loading or unavailable.
+Main site should stop automatic 6-second external navigation; keep original
+redirect at a separate route if desired. This is a proposal only, not implemented.
+
+Validation to require before launch:
+- Real mobile Safari/Android/WeChat and non-VPN networks; keep DNS diagnostics
+  separate from renderer/performance failures.
+- Touch equivalents for pointer interactions, optional sound, reduced motion.
+- Native scroll boundary tests; WebGL failure still exposes department text/links.
+- Performance budgets established on prototype, measured before promising speed.
+- Ability to directly open/share each department, restore Back navigation.
+
+Evidence limits:
+Research uses live-page text, published creator explanations and indexed showcases.
+No full interactive browser session, frame-rate benchmark or mobile comparison was
+available in this environment. No proprietary code/assets copied, no licenses
+assumed for future reuse, and no implementation or deployment changes made.

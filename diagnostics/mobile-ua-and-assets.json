@@ -1,0 +1,31 @@
+{
+  "checked_at_utc": "2026-10-13T11:25:49.654767+00:00",
+  "scope": "Requests from assistant execution network with mobile User-Agent strings; not a real mobile-carrier or WeChat-browser test.",
+  "url": "https://xn--vhqt0ztpb01mkjgbk6bnujgj4a.com/",
+  "iphone_safari_ua": {
+    "http_status": 200,
+    "body_bytes": 2107
+  },
+  "android_wechat_ua": {
+    "http_status": 200,
+    "body_bytes": 2107
+  },
+  "same_html": true,
+  "html_sha256": "2642aafaa37482d628b884f484bfb7080a67860dbae2232fe7ca2bf3659dcf74",
+  "assets": {
+    "app.js": {
+      "http_status": 200,
+      "bytes": 7431
+    },
+    "assets/gsap.min.js": {
+      "http_status": 200,
+      "bytes": 72435
+    },
+    "assets/naiwa-graduate.png": {
+      "http_status": 200,
+      "bytes": 845771
+    }
+  },
+  "local_code_review": "No external font/API dependency or device-based access check. Fixed location.replace redirect to https://www.tsinghua.edu.cn/ after six seconds.",
+  "live_version": "V1 original portal, not local preview changes."
+}

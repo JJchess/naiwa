@@ -1,0 +1,1 @@
+{"type": "dns", "target": "xn--vhqt0ztpb01mkjgbk6bnujgj4a.com", "locations": [{"country": "CN", "limit": 1}], "measurementOptions": {"resolver": "a.gtld-servers.net", "query": {"type": "NS"}}}

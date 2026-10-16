@@ -1,0 +1,69 @@
+奶蛙校园 · 机械分区样板
+2026-10-14
+
+当前交付边界
+按已确认的“样板先验收，再扩展”步骤完成首个分区。
+已完成 6 只独立角色、16 张独立栅格素材、7 个视差深度、桌面组合和 2 张手机组合。
+官网目录含 125 个单位（其中 16 个书院），保留官方父子层级；9 个艺术主题分区是本站分类，不是官方组织关系。
+125 个角色的创作方向保存在 reference/character-directions.json；当前只有 6 只生成并接入，剩余 119 只尚未制作。
+其他分区目前提供真实官网目录，不显示冒充完成的角色占位图。
+
+启动与构建
+npm ci
+npm run dev                 # 0.0.0.0:48321
+npm test                   # 12 项针对性检查
+npm run build              # TypeScript + Vite，输出 dist/
+npm run assets             # 从 art-source 编码 AVIF/WebP 并合成静态版
+node tools/process-assets.mjs --posters-only
+python3 tools/import-directory.py
+python3 tools/character-directions.py
+
+路由与行为
+/                          # 校园；不会自动跳离本站
+/?zone=engineering&page=2   # 手机第二组；桌面仍显示六只
+/?view=directory           # 完整目录
+/?zone=health              # 生命医学官方入口
+/jump/                     # 原 V10 入场动画和原跳转行为
+/jump/?preview=1           # 原动画预览，不自动跳转
+角色与名称是同一个原生链接，官网在新标签页打开。
+搜索覆盖正式名称、常用简称和所属学院；快捷键 Ctrl/Cmd + K。
+
+素材与来源
+所有新插画用内置 image_gen 生成，原图已复制到 art-source/。
+完整提示词及每张源文件路径：reference/imagegen-prompts.json。
+未使用第三方站点的插画或源代码。
+视觉基准：../delivery/naiwa-campus-concept-v1.png。
+Castles（Karim Maaloul）的分层跟随观感作为交互参考：https://codepen.io/Yakudoo/full/MyMGBX
+本站用独立编写的 React DOM/CSS 实现，没有移植 PixiJS 代码。
+字标沿用旧版 title-lettering.svg，字形字体许可：public/art/lettering-OFL.txt。
+
+官方目录
+来源：https://www.tsinghua.edu.cn/yxsz.htm
+快照：reference/tsinghua-directory-2026-10-14.html
+只提取首个 yxszCon，避免重复统计移动版和 A–Z 版。
+官网未列独立网址时优先补学院导航中的对应系介绍页；仍无链接则标为 parent/directory 并明确显示实际去向。
+当前 103 个官网原链接、6 个学院导航补充页、16 个明确标注的上级/总目录入口。
+来源和名称已核对；未声称所有第三方官网在每个用户网络上都可访问。
+
+渲染与性能
+统一场景坐标：桌面 1600×900、手机 900×760。
+位移幅度 0/2/4/8/12/18/24px，竖向为一半；120ms 指数缓动。
+误差低于 0.1px 连续两帧后停 RAF，离开回中，切后台立即取消；触摸与 reduced-motion 不启动视差。
+桌面先显示完整海报，全部图层 decode 成功后切换；失败保留海报与官网链接。
+手机不挂载分层图片，只加载当前海报，空闲时预取另一组。
+AVIF 全部图层约 1.12MiB；WebP 回退约 1.91MiB。
+桌面海报约 250KB，手机每组约 153KB。具体数字见 reference/asset-sizes.json。
+海报按同一份 scene.json 合成；倒影与门拱绑定相同深度。
+根页面与全部独立滚动容器设 overscroll-behavior:none；保留原生滚动，不截获 wheel/touchmove。
+
+验证与限制
+已通过 TypeScript、生产构建、12 项自动检查，以及首页/海报/透明素材/字标/旧动画资源 HTTP 200 检查。
+自动检查覆盖目录完整性、真实链接归属、125 个不同创作方向、16 张透明素材、旧版文件 hash、搜索、路由解析、视差停止/回中/后台取消、手机及 reduced-motion 静态渲染。
+已检查真实组合海报的桌面和两组手机画面；这些是素材合成图，不是浏览器截图。
+本环境 Chromium 启动被沙箱禁止（setsockopt: Operation not permitted）。没有降低沙箱保护来绕过。
+浏览器端布局、鼠标命中、键盘焦点、手机顶部/底部/弹窗滚动边界，仍需在 48321 端口做实际验收；未声称经过真机触控验证。
+未改动生产 Cloudflare Worker；下载包是可上传的静态样板。原 V1–V10 包保留。
+
+下一阶段
+按样板审美反馈确认角色尺度、场景密度与材质，再逐分区制作剩余独立角色。
+每个单位保留独立造型与唯一官网链接，桌面每幕最多 6 只、手机最多 3 只。

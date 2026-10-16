@@ -1,0 +1,30 @@
+V2 rotating seal — 2026-10-13
+
+Behavior reference: https://中国奶龙大学.com redirects to https://nailong.dykey.net/
+Inspected the delivered HTML/CSS/animation code and outer-ring/core images.
+Reference uses a circular name band rotating once per 4 seconds, stationary
+mascot, pop entrance and accelerated exit. No reference code or images reused.
+
+Visual context: https://www.tsinghua.edu.cn/info/1181/51525.htm
+Tsinghua's concentric seal structure informed the purple collegiate treatment.
+Our SVG uses the fictional school's own name, original simplified gate linework,
+and the existing mascot. It is not the official university seal.
+
+Decisions / source-to-target mapping:
+- Replace .portal's tilted ellipse with a flat circular disk, concentric borders,
+  Chinese name above and English name below; no additional page captions.
+- .seal-ring rotates at 90 degrees/sec for 4.15 sec, then continuously accelerates
+  to 720 degrees by 5.45 sec. The core gate stays upright.
+- Master GSAP timeline owns rotation, so replay/Escape/visibility pauses also
+  control the seal. Existing six-second destination and fullscreen wipe retained.
+- Mascot fits the inner disk so the lower name remains visible.
+- Inline SVG has no new network dependency; reduced-motion gets a static seal.
+- Accepted V1 archive remains unchanged. V2 is a separate export.
+
+Validation:
+Redirect/state tests and JavaScript syntax checks passed. A static SVG composition
+was rendered and visually checked; its lettering was outlined for the static
+renderer because that renderer does not implement SVG textPath.
+Browser launch is blocked by this environment (Operation not permitted).
+Live animation, browser font rendering and native touch/trackpad elastic scrolling
+have NOT been visually verified here. Preview is provided for review.

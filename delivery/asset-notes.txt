@@ -1,0 +1,58 @@
+奶蛙角色参考与生成记录
+
+参考：网络流传的黄色奶蛙大笑形象。
+参考画面：https://img.youtube.com/vi/vNjrMPydWZc/sddefault.jpg
+发现页面：https://tw.cyberlink.com/blog/ai-image-generator/5592/nailong-meme
+其他调研：https://github.com/Marshall-Jimmy/naiwa-universe
+成品：dist/assets/naiwa-graduate.png
+生成方式：内置 image_gen，透明背景，参考形象再创作并添加学士帽。
+
+Prompt:
+Use case: identity-preserve. Asset type: transparent full-body 3D mascot cutout for an animated playful Chinese university entrance website. Reference image: use the attached yellow laughing Naiwa meme as the identity reference, specifically the central full-body character. Preserve its comically oversized round yellow body, cream belly, comparatively small sloping head, protruding lime-green eyes with black pupils, huge delighted open mouth with visible teeth, brownish hands over its belly, brown three-toed feet. Keep it recognizably the same awkward, ugly-cute internet meme, NOT a green frog and NOT an ordinary cute round-headed dinosaur. Create a higher-quality sharp 3D render, smooth slightly satin yellow skin, realistic soft material shading, three-quarter frontal pose clutching its belly mid-laugh. Add a small dark plum graduation cap with a golden tassel tilted on its head, in keeping with the college theme. Full body centered, all feet and hat included, 12% breathing room around every edge. Studio lighting, soft neutral main light and subtle pale lavender rim light, no dark cast shadow on ground. Actual transparent background with clean alpha, no scenery, no backdrop, no white or black rectangle, no text or letters, no watermark. One single character only, 1024x1024 composition.
+
+页面为网友趣味创作，不使用清华官方校徽，也不宣称与清华大学存在隶属关系。
+
+V2 紫色旋转徽章：自行绘制 SVG 同心圆与校门轮廓，校名为奶蛙职业技术学院。
+动画行为参考 https://nailong.dykey.net/ 的文字外圈旋转与离场加速，未复制其素材。
+校徽结构参考 https://www.tsinghua.edu.cn/info/1181/51525.htm ，详细取舍见 seal-v2.txt。
+
+V3 按用户纠正替换 V2：外圈文字为“清华大学 / TSINGHUA UNIVERSITY”，二校门作为内部元素。
+保留倾斜椭圆与 V1 奶蛙大小；加宽紫色环带，浅色文字，中心浅紫铺底。二校门缩为右上角低对比度配景，避开奶蛙身体；起跳前淡出配景。图案为 SVG 改绘。
+外圈文字沿倾斜椭圆的轮廓旋转，和奶蛙共用 0.77 秒循环时间轴，一次跳动对应一周旋转。
+入场与奶蛙同用 1.08 秒弹跳节奏；最后蹲下、起跳、入圈分段同步，保留六秒跳转。
+代码测试已通过，当前环境无法启动浏览器，动态视觉与原生弹性滚动尚未实测。
+
+V4 徽章结构重绘：借鉴清华校徽的编织状外缘、繁体校名、双层文字环、分区校训和年份；
+用浅底紫色纹样代替大面积紫色填充，二校门保持低对比度并避开奶蛙。
+名字为清華大學 / TSINGHUA UNIVERSITY，文字转矢量路径，字体不依赖用户设备。
+设计参考与历次纠正见 reference/emblem-design-ledger.txt，矢量构建工具 tools/build-emblem.py。
+未更改 V3 已认可的动画脚本；静态矢量构图已检查，尚未完成真实浏览器/手机视觉验证。
+
+V5 对称性修正：二校门居中，校训恢复完整的八等分圆环；不再为了避开奶蛙而偏置校门。
+保留 V4 的编织边缘、文字和配色，动画脚本不变。最新完整矢量图为 reference/emblem.svg。
+
+V6 同步旋转：内圈校训、二校门与外圈共用 portal-spin 控制和 260,260 旋转中心，
+同向、同速、同相位转动；去除内圈提前淡出，使完整徽章持续到全屏转场覆盖。
+
+V7 慢转与吸入：常态从 0.77 秒/圈降至 3.2 秒/圈，进圈时连续加速。
+奶蛙按真实布局中心坐标被拉入，先纵向拉伸再收缩，叠加向内收拢的波纹。
+吸入尾段后再展开紫色全屏转场，总时长仍为 6 秒；暂停、重播与减少动态效果逻辑保留。
+
+V8 根据用户反馈回退到 V6 入圈动作，删除 V7 吸入、拉伸与波纹。
+常态转速折中为 1.54 秒/圈，恰好对应两次 0.77 秒的奶蛙跳动，保留 V6 离场加速。
+
+V9 — 2026-10-13
+- Rest rotation: 1.44 seconds per turn; V8 was 1.54. Other choreography unchanged.
+- Title: outlined Zhi Mang Xing, eight simplified characters, shared by header
+  and fullscreen transition; accessible text retained. No runtime font requests.
+- Source: https://github.com/google/fonts/tree/main/ofl/zhimangxing
+  SIL Open Font License preserved in assets/title-font-OFL.txt.
+  Rebuild with python3 tools/build-title.py using reference/title-font.ttf.
+- Visual reference: https://xsg.tsinghua.edu.cn/info/1003/3818.htm
+  Interpret the flowing brush-lettering character, not an exact official font.
+- Syntax, redirect tests, export and static SVG checks passed.
+  Browser rendering and native phone/trackpad scrolling not tested here.
+
+V10 — Title enlarged about 11%; header 310–410px (300px on short screens).
+Transition lettering also enlarged; viewport width caps retained. Motion unchanged.
+Native phone/trackpad scroll boundaries have not been retested.

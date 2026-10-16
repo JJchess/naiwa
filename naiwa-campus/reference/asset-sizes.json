@@ -1,0 +1,130 @@
+[
+  {
+    "id": "sky",
+    "width": 1672,
+    "height": 941,
+    "alpha": false,
+    "avifBytes": 6915,
+    "webpBytes": 18666
+  },
+  {
+    "id": "skyline",
+    "width": 2172,
+    "height": 724,
+    "alpha": true,
+    "avifBytes": 101106,
+    "webpBytes": 197942
+  },
+  {
+    "id": "arch",
+    "width": 1536,
+    "height": 1024,
+    "alpha": true,
+    "avifBytes": 92231,
+    "webpBytes": 153796
+  },
+  {
+    "id": "trees-left",
+    "width": 1141,
+    "height": 1378,
+    "alpha": true,
+    "avifBytes": 166321,
+    "webpBytes": 286540
+  },
+  {
+    "id": "trees-right",
+    "width": 1448,
+    "height": 1086,
+    "alpha": true,
+    "avifBytes": 129540,
+    "webpBytes": 218702
+  },
+  {
+    "id": "terraces",
+    "width": 1672,
+    "height": 941,
+    "alpha": true,
+    "avifBytes": 172051,
+    "webpBytes": 343716
+  },
+  {
+    "id": "reflection",
+    "width": 2172,
+    "height": 724,
+    "alpha": true,
+    "avifBytes": 62027,
+    "webpBytes": 94354
+  },
+  {
+    "id": "robot-arm",
+    "width": 1254,
+    "height": 1254,
+    "alpha": true,
+    "avifBytes": 75977,
+    "webpBytes": 132550
+  },
+  {
+    "id": "shore",
+    "width": 2172,
+    "height": 724,
+    "alpha": true,
+    "avifBytes": 59932,
+    "webpBytes": 92280
+  },
+  {
+    "id": "flowers",
+    "width": 1536,
+    "height": 1024,
+    "alpha": true,
+    "avifBytes": 60081,
+    "webpBytes": 122220
+  },
+  {
+    "id": "mechanical",
+    "width": 1254,
+    "height": 1254,
+    "alpha": true,
+    "avifBytes": 39085,
+    "webpBytes": 53176
+  },
+  {
+    "id": "precision",
+    "width": 1254,
+    "height": 1254,
+    "alpha": true,
+    "avifBytes": 35235,
+    "webpBytes": 51948
+  },
+  {
+    "id": "energy",
+    "width": 1254,
+    "height": 1254,
+    "alpha": true,
+    "avifBytes": 40099,
+    "webpBytes": 56186
+  },
+  {
+    "id": "vehicle",
+    "width": 1254,
+    "height": 1254,
+    "alpha": true,
+    "avifBytes": 45914,
+    "webpBytes": 66044
+  },
+  {
+    "id": "industrial",
+    "width": 1254,
+    "height": 1254,
+    "alpha": true,
+    "avifBytes": 34650,
+    "webpBytes": 49510
+  },
+  {
+    "id": "icenter",
+    "width": 1254,
+    "height": 1254,
+    "alpha": true,
+    "avifBytes": 49630,
+    "webpBytes": 64096
+  }
+]

@@ -1,0 +1,60 @@
+奶蛙职业技术学院 · 动画跳转入口
+
+入口域名：奶蛙职业技术学院.com
+Punycode：xn--vhqt0ztpb01mkjgbk6bnujgj4a.com
+目标网址：https://www.tsinghua.edu.cn/
+
+运行方式
+交付文件 naiwa-preview.html 为内嵌完整图片、样式和动画脚本的独立预览：下载后用浏览器打开，播放结束后留在页面，可重播。
+交付文件 naiwa-website.zip 为正式上线包：解压后的 index.html 放在网站根目录，保留 assets/、style.css、app.js 的相对位置。正式版默认自动跳转。
+网站是纯静态 HTML/CSS/JavaScript，dist/ 中包含完整运行文件和本地素材。
+动画使用随网站部署的 GSAP 3.13.0；没有第三方脚本运行时请求。
+普通入口：/，播放约 6 秒后在当前标签页使用 location.replace 跳转。
+预览入口：/?preview=1，完整播放全屏紫色转场后回到奶蛙画面，可点击奶蛙重播。
+页面不再显示独立的跳转、暂停或重播按钮。关闭 JavaScript 时提供普通文字链接访问清华官网。
+Escape 可切换暂停/继续；暂停时收起转场遮罩；切到其他标签页也会暂停。
+点击奶蛙可随时从头重播，包括播放中、暂停后和预览结束后；正式入口的 6 秒倒计时会一并重置。键盘聚焦奶蛙后按 Enter 或空格也可重播。
+系统启用“减少动态效果”后取消大幅位移动画和全屏扩张效果，保留倒计时和自动跳转。
+
+页面布局
+居中单屏布局，仅保留站名、奶蛙及传送门、状态文字和民间创作说明。
+跳转前紫色圆形从传送门中心扩张至全屏，显示站名“奶蛙职业技术学院”；圆形尺寸根据屏幕四角距离计算，并在窗口调整时更新。
+舞台根据窗口剩余高度与宽度等比缩放；取消固定的场景最小高度，不使用全局裁切或拦截触摸来隐藏溢出。
+预览地址：http://localhost:48319/?preview=1（远程环境需转发 48319 端口）。
+
+修改目标和时长
+dist/app.js 中的 TARGET_URL 为跳转目标，DURATION 为倒计时总时长。
+改变目标时，也需更新 dist/index.html 中的目标链接与可见文案。
+如调整 DURATION，请同步调整 buildMotion() 中各动画时间点。
+网站不会从 URL 查询参数读取目标地址。
+
+域名接入
+1. 阿里云域名控制台确认该域名的实名认证和命名审核已完成，状态可正常解析。
+2. 实名认证后，2026-10-13 15:25 左右的后续注册局查询已显示 active，原 clientHold 已解除。
+3. 将入口页托管到支持 HTTPS 与自定义域名的静态托管服务。
+4. 在托管服务中添加域名（需要时使用上述 Punycode），按服务返回值在当前 DNS 服务商设置解析。Cloudflare Pages 的根域名绑定需要使用 Cloudflare 分配的 DNS 服务器。
+5. 等待域名校验与 HTTPS 证书就绪，再测试中文域名入口。
+6. 若想展示动画，域名必须指向本入口网页；不要把根路径配置成直接跳往清华的服务器重定向。
+
+当前交付状态
+页面、图片和跳转逻辑已完成，7 项跳转行为检查通过。
+本次 Sites 发布流程在连接源代码托管服务时出现 DNS 解析失败，尚未发布成功；没有可交付的在线预览地址。
+没有改动阿里云中的解析记录。A/CNAME 的具体记录值必须由选定的托管服务提供，不能填清华官网的地址代替。
+域名可以继续留在阿里云，不需要为了使用入口页而重新注册。
+
+阿里云 clientHold 说明：
+https://help.aliyun.com/zh/dws/support/how-to-unlock-a-domain-name-that-is-in-the-serverhold-or-clienthold-state
+
+本地检查
+node --check dist/app.js
+node tools/redirect.test.cjs
+浏览器验证脚本：tools/verify.cjs，需安装 Playwright 和对应 Chromium。
+运行：node tools/verify.cjs；若 Playwright 安装在其他目录，可用 NAIWA_PLAYWRIGHT_MODULE 指定模块路径。
+浏览器检查覆盖 320×568、390×844、844×390、768×1024、1366×768、1920×1080，逐帧检查横纵溢出、操作区可见性，并检查四个方向的滚轮操作。
+本次环境不允许 Chromium 进程启动，未完成真实浏览器截图与视觉检查。
+未在原生触控板或手机上验证弹性滚动；CSS 已对根页面及所有元素设置 overscroll-behavior: none。
+
+素材
+dist/assets/naiwa-graduate.png 是内置 image_gen 依据网上奶蛙参考形象制作的透明再创作素材。
+生成提示词和参考出处见 reference/asset-notes.txt。
+页面底部注明“非官方趣味页面”。

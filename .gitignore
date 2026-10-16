@@ -1,0 +1,16 @@
+# Local dependencies and generated caches
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+
+# Local credentials and tool metadata
+.env
+.env.*
+!.env.example
+!.env.*.example
+.agents/
+.aws/
+.codex/
+.openai/

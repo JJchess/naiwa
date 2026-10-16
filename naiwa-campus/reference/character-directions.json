@@ -1,0 +1,1127 @@
+[
+  {
+    "unitId": "u-26c989752c",
+    "name": "建筑学院",
+    "theme": "architecture",
+    "direction": "亚麻围裙，托着层叠白色校园模型",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-c4fb974e65",
+    "name": "建筑系",
+    "theme": "architecture",
+    "direction": "贝雷帽，伸手调整微型拱廊柱头",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-964f12d6e6",
+    "name": "城市规划系",
+    "theme": "architecture",
+    "direction": "俯看折叠城市沙盘，用积木移动街区",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-e4870a4d90",
+    "name": "建筑技术科学系",
+    "theme": "architecture",
+    "direction": "透明护目镜，测试建筑外墙的光热模型",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-6c6e766c00",
+    "name": "景观学系",
+    "theme": "architecture",
+    "direction": "草绿色园艺背带裤，修剪阶梯花园盆景",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-7ef884f758",
+    "name": "土木水利学院",
+    "theme": "architecture",
+    "direction": "白色工程帽，手托桥梁与水坝组合模型",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-776c15151e",
+    "name": "土木工程系",
+    "theme": "architecture",
+    "direction": "蓝紫工作服，用吊线校准桁架桥",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-5b65659d52",
+    "name": "水利水电工程系",
+    "theme": "architecture",
+    "direction": "卷起裤脚，拨动小水轮与闸门",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-cbffd3bd66",
+    "name": "建设管理系",
+    "theme": "architecture",
+    "direction": "抱着施工计划卷轴，摆放塔吊沙盘",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-c49a87177a",
+    "name": "海洋工程系",
+    "theme": "architecture",
+    "direction": "小潜水镜，手托浮式海上平台",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-9da8592780",
+    "name": "交通工程系",
+    "theme": "architecture",
+    "direction": "荧光袖口，用指挥棒指向立交道路模型",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-a690d08676",
+    "name": "环境学院",
+    "theme": "architecture",
+    "direction": "植栽围裙，捧着有水和树的生态球",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-13fac844d6",
+    "name": "环境工程系",
+    "theme": "architecture",
+    "direction": "抱着透明微型净水塔，观察水滴",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-d32df80bcc",
+    "name": "环境科学与健康系",
+    "theme": "architecture",
+    "direction": "白大褂，用采样器收集叶片露珠",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-f76825f5bf",
+    "name": "环境可持续系统管理系",
+    "theme": "architecture",
+    "direction": "拿着循环箭头转轮，平衡树木与城市积木",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-5629e54f7c",
+    "name": "机械工程学院",
+    "theme": "engineering",
+    "direction": "紫色工程外套，装配一组联动齿轮",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-ac826ed425",
+    "name": "机械工程系",
+    "theme": "engineering",
+    "direction": "护目镜与工具围裙，扳手拧动银色齿轮",
+    "status": "sample",
+    "asset": "mechanical",
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-7e2b4c9756",
+    "name": "精密仪器系",
+    "theme": "engineering",
+    "direction": "单眼放大镜，游标卡尺测量玻璃棱镜",
+    "status": "sample",
+    "asset": "precision",
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-c3288b0573",
+    "name": "能源与动力工程系",
+    "theme": "engineering",
+    "direction": "紫色背带裤，抱着涡轮转子和小风机",
+    "status": "sample",
+    "asset": "energy",
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-77d1693bb7",
+    "name": "车辆与运载学院",
+    "theme": "engineering",
+    "direction": "赛车夹克，倚靠紫色小跑车并抱着头盔",
+    "status": "sample",
+    "asset": "vehicle",
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-cdc3114b72",
+    "name": "工业工程系",
+    "theme": "engineering",
+    "direction": "安全帽与反光背心，托着装有包裹的传送带",
+    "status": "sample",
+    "asset": "industrial",
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-686edcbecd",
+    "name": "基础工业训练中心",
+    "theme": "engineering",
+    "direction": "工坊围裙，举木槌并展示手作木火箭",
+    "status": "sample",
+    "asset": "icenter",
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-067c50bf14",
+    "name": "航天航空学院",
+    "theme": "engineering",
+    "direction": "飞行夹克，怀抱可展开翼面的航天器",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-337264e220",
+    "name": "工程力学系",
+    "theme": "engineering",
+    "direction": "托起受力杆系模型，用砝码保持平衡",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-a50df68240",
+    "name": "航空宇航工程系",
+    "theme": "engineering",
+    "direction": "戴通信耳机，调试白紫相间的风洞飞机",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-8138185d3c",
+    "name": "信息科学技术学院",
+    "theme": "information",
+    "direction": "透明线路披肩，连接一组发光信号节点",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-a7d16de3f4",
+    "name": "电子工程系",
+    "theme": "information",
+    "direction": "拿着示波器探头，观察紫色波形小屏",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-959efe0edc",
+    "name": "计算机科学与技术系",
+    "theme": "information",
+    "direction": "连帽卫衣，抱着机械键盘与微型终端",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-65d6085383",
+    "name": "自动化系",
+    "theme": "information",
+    "direction": "控制手柄，指挥跟随身边的小机械狗",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-fae2639263",
+    "name": "集成电路学院",
+    "theme": "information",
+    "direction": "防静电连体服，双手捧起彩虹硅晶圆",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-2e3baa6ff4",
+    "name": "网络科学与网络空间研究院",
+    "theme": "information",
+    "direction": "环形路由器背包，编织透明网络光线",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-bc8a2fe203",
+    "name": "软件学院",
+    "theme": "information",
+    "direction": "宽松毛衣，搭建函数积木塔",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-f25e58a2eb",
+    "name": "信息国家研究中心",
+    "theme": "information",
+    "direction": "光纤线轴与信号天线，连接跨层信息桥",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-db575b7ac1",
+    "name": "人工智能学院",
+    "theme": "information",
+    "direction": "半透明数据镜片，与小型学习机器人对视",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-82a881bdc7",
+    "name": "材料学院",
+    "theme": "engineering",
+    "direction": "晶体纹理手套，展示不同材质的六面试样",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-4f547037f7",
+    "name": "电机工程与应用电子技术系",
+    "theme": "information",
+    "direction": "绝缘手套，举着剖开的紫色电动机",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-835cffa750",
+    "name": "工程物理系",
+    "theme": "science",
+    "direction": "实验服，围着一个环形粒子轨道探测器",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-c04c232324",
+    "name": "化学工程系",
+    "theme": "engineering",
+    "direction": "护目镜，查看透明反应釜的气泡",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-96b5ffbd71",
+    "name": "核能与新能源技术研究院",
+    "theme": "engineering",
+    "direction": "工程帽，托起白色模块化能源装置",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-b9b3e5c099",
+    "name": "安全科学学院",
+    "theme": "engineering",
+    "direction": "橙紫反光肩带，展开应急救援立体地图",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-2e35cc3675",
+    "name": "理学院",
+    "theme": "science",
+    "direction": "学者披肩，托着几何体与星轨组成的天平",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-1352fb577f",
+    "name": "数学科学系",
+    "theme": "science",
+    "direction": "圆框眼镜，手持莫比乌斯带与粉笔",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-98b15a4e4e",
+    "name": "物理系",
+    "theme": "science",
+    "direction": "实验背心，摆动双摆装置",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-fdd8c81065",
+    "name": "化学系",
+    "theme": "science",
+    "direction": "紫边实验衣，拼接彩色球棍分子",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-feb2933ef7",
+    "name": "地球系统科学系",
+    "theme": "science",
+    "direction": "野外背包，托着可拆分的地球剖面球",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-5253bec5c2",
+    "name": "天文系",
+    "theme": "science",
+    "direction": "星点围巾，俯身观察小型反射望远镜",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-fa6a81f652",
+    "name": "杨振宁高等研究院",
+    "theme": "science",
+    "direction": "简洁学者长衫，旋转对称几何模型",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-975d33f6bc",
+    "name": "心理与认知科学系",
+    "theme": "health",
+    "direction": "头戴轻巧脑电环，研究视觉错觉立体装置",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-1b505a46cd",
+    "name": "统计与数据科学系",
+    "theme": "science",
+    "direction": "圆框眼镜，把数据珠子放进概率分布槽",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-5b8d40b29e",
+    "name": "生命科学学院",
+    "theme": "health",
+    "direction": "实验衣，举着透明培养皿与幼苗",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-0e3f890bc6",
+    "name": "医学院（TM）",
+    "theme": "health",
+    "direction": "紫色听诊器，抱着柔软心脏模型",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-c904d7939e",
+    "name": "基础医学院",
+    "theme": "health",
+    "direction": "解剖图册背带，组装细胞与组织模型",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-8b37538d6b",
+    "name": "药学院",
+    "theme": "health",
+    "direction": "白色药研外套，研究球形药物递送颗粒",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-cd33575808",
+    "name": "临床医学院（北京清华长庚医院）",
+    "theme": "health",
+    "direction": "白大褂，举听诊器温柔问候",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-53eda36359",
+    "name": "生物医学工程学院",
+    "theme": "health",
+    "direction": "佩戴传感器腕带，调试轻巧仿生手",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-72815b6620",
+    "name": "医疗管理学院",
+    "theme": "health",
+    "direction": "抱着医院流程沙盘，安排小小诊疗站",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-b76f277895",
+    "name": "万科公共卫生与健康学院",
+    "theme": "health",
+    "direction": "浅绿外套，托起连接人群的健康保护伞",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-18e1fddadd",
+    "name": "交叉信息研究院",
+    "theme": "information",
+    "direction": "紫色披风，将逻辑积木与量子环连接",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-af8cd90ace",
+    "name": "航空发动机研究院",
+    "theme": "engineering",
+    "direction": "飞行工装，展示剖开的喷气发动机",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-37814e4216",
+    "name": "低碳能源实验室",
+    "theme": "engineering",
+    "direction": "浅绿护目镜，举起太阳能板与储能方块",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-17280b4b93",
+    "name": "数学科学中心",
+    "theme": "science",
+    "direction": "抱着曲面几何雕塑，用细线绘出测地线",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-a897fc9bb5",
+    "name": "生物医学交叉研究院",
+    "theme": "health",
+    "direction": "双层透明眼镜，连接芯片与细胞球",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-50d50fcc37",
+    "name": "未来实验室",
+    "theme": "information",
+    "direction": "可变形外套，操作悬浮的柔性界面模型",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-439da92fae",
+    "name": "智能产业研究院",
+    "theme": "information",
+    "direction": "工程背心，手托小型自动驾驶配送车",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-9904b47178",
+    "name": "碳中和研究院",
+    "theme": "engineering",
+    "direction": "叶片领结，平衡碳球与森林的天平",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-801e2c6c7b",
+    "name": "国际与地区研究院",
+    "theme": "humanities",
+    "direction": "旅行背心，翻开折叠地球与田野笔记",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-4ed2fdad84",
+    "name": "经济管理学院",
+    "theme": "society",
+    "direction": "紫色针织衫，把资源积木摆成交换市集",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-ac30f1051c",
+    "name": "会计系",
+    "theme": "society",
+    "direction": "圆眼镜，认真平衡两盘不同颜色的账目珠子",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-07b063cf2c",
+    "name": "经济系",
+    "theme": "society",
+    "direction": "宽松西服，摆放供需曲线弯轨",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-c47cb17ec4",
+    "name": "金融系",
+    "theme": "society",
+    "direction": "紫色领带，观察不同期限的投资树模型",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-11669b8c64",
+    "name": "创新创业与战略系",
+    "theme": "society",
+    "direction": "卷袖衬衫，把想法灯泡装进纸飞机",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-478d936de0",
+    "name": "领导力与组织管理系",
+    "theme": "society",
+    "direction": "紫色胸针，协调一组互相连接的小齿轮队伍",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-fe201d8f73",
+    "name": "管理科学与工程系",
+    "theme": "society",
+    "direction": "手持优化网格，寻找最短路线小球",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-5fa6df48da",
+    "name": "市场营销系",
+    "theme": "society",
+    "direction": "带着紫色小扩音器，摆放产品展示台",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-e0f4f92d47",
+    "name": "公共管理学院",
+    "theme": "society",
+    "direction": "抱着公共服务街区模型，打开小广场",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-2f7aad11f6",
+    "name": "马克思主义学院",
+    "theme": "humanities",
+    "direction": "深紫围巾，翻阅装订经典与历史长卷",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-71361c14ac",
+    "name": "人文学院",
+    "theme": "humanities",
+    "direction": "亚麻书袋，坐在打开的多层书本台阶上",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-11d25e0e8f",
+    "name": "中国语言文学系",
+    "theme": "humanities",
+    "direction": "握毛笔，在立体汉字积木旁提笔",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-8a102e10a8",
+    "name": "历史系",
+    "theme": "humanities",
+    "direction": "戴白手套，展开古地图与时间卷轴",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-40953b536d",
+    "name": "科学史系",
+    "theme": "humanities",
+    "direction": "怀抱古老浑仪，比较齿轮计时器",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-dc0c73aad3",
+    "name": "哲学系",
+    "theme": "humanities",
+    "direction": "圆镜片与沉思姿态，观察无限反射棱镜",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-0c2e4f85eb",
+    "name": "外国语言文学系",
+    "theme": "humanities",
+    "direction": "多色书签披肩，阅读不同文字形状的书卷",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-ed58f961ee",
+    "name": "社会科学学院",
+    "theme": "humanities",
+    "direction": "拿着观察笔记，拼合多色社会关系网络",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-9866f64f92",
+    "name": "社会学系",
+    "theme": "humanities",
+    "direction": "背田野调查包，整理人物关系线绳",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-9e33809e62",
+    "name": "政治学系",
+    "theme": "humanities",
+    "direction": "站在微型议事圆桌旁，放置规则积木",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-6c97e4e954",
+    "name": "国际关系学系",
+    "theme": "humanities",
+    "direction": "手握两端连接的地球丝带，站在小桥边",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-3bcccf7158",
+    "name": "经济学研究所",
+    "theme": "humanities",
+    "direction": "怀抱田野笔记，比较不同年代的交换工具",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-c0ee1e3190",
+    "name": "法学院",
+    "theme": "society",
+    "direction": "深紫学者袍，一手拿法典一手持小天平",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-328e2c32c2",
+    "name": "新闻与传播学院",
+    "theme": "society",
+    "direction": "挂相机与采访麦克风，俯身记录现场",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-ec08531a83",
+    "name": "五道口金融学院",
+    "theme": "society",
+    "direction": "紫色围巾，摆放金融街景与资金流动管道",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-e6f2200f9d",
+    "name": "美术学院",
+    "theme": "arts",
+    "direction": "斑点绘画围裙，举调色盘与几何雕塑",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-c911d82b81",
+    "name": "艺术史论系",
+    "theme": "arts",
+    "direction": "手持放大镜，观察古典画框里的颜料层",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-5a35e4a774",
+    "name": "工业设计系",
+    "theme": "arts",
+    "direction": "拿着泡沫产品原型与曲线尺",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-1259f4abfa",
+    "name": "环境艺术设计系",
+    "theme": "arts",
+    "direction": "布料腰包，调整缩小的室内灯光装置",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-cd9ae4cc5d",
+    "name": "陶瓷艺术设计系",
+    "theme": "arts",
+    "direction": "陶泥围裙，双手扶着旋转陶坯",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-66a2171cc6",
+    "name": "视觉传达设计系",
+    "theme": "arts",
+    "direction": "大幅色卡披肩，拼贴字形与平面图案",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-faf8ec85c6",
+    "name": "染织服装艺术设计系",
+    "theme": "arts",
+    "direction": "软尺围颈，展开一匹织有紫纹的布",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-23249e6497",
+    "name": "信息艺术设计系",
+    "theme": "arts",
+    "direction": "像素色块帽，操作交互光点装置",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-0600df188f",
+    "name": "工艺美术系",
+    "theme": "arts",
+    "direction": "编织围裙，展示金属与漆艺小匣",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-6252b037fd",
+    "name": "绘画系",
+    "theme": "arts",
+    "direction": "戴画家帽，面前画架有黄色抽象笔触",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-3ae220d524",
+    "name": "雕塑系",
+    "theme": "arts",
+    "direction": "拿木塑刀，打磨一块白色石膏曲面",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-51af1d08c2",
+    "name": "教育学院",
+    "theme": "arts",
+    "direction": "手持立体翻页绘本，邀请围观的小纸鹤",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-7279bcc044",
+    "name": "深圳国际研究生院",
+    "theme": "colleges",
+    "direction": "海风衬衫，捧起跨学科滨海小岛模型",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-2ebc5cbe33",
+    "name": "苏世民书院",
+    "theme": "colleges",
+    "direction": "旅行式书袋，展开连接世界的圆桌地图",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-de5e08d241",
+    "name": "新雅书院",
+    "theme": "colleges",
+    "direction": "简雅开衫，平衡书本与科学器物",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-588d904676",
+    "name": "致理书院",
+    "theme": "colleges",
+    "direction": "紫色学者围巾，举起透明几何晶体",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-0ab1bbd7c2",
+    "name": "日新书院",
+    "theme": "colleges",
+    "direction": "朝阳纹肩带，翻开每天不同的一页手账",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-a36dac8336",
+    "name": "未央书院",
+    "theme": "colleges",
+    "direction": "环形缎带披肩，展开一条延续的纸带",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-2e1654ae8f",
+    "name": "探微书院",
+    "theme": "colleges",
+    "direction": "小放大镜，探索叶片纹理中的微小世界",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-aaca222452",
+    "name": "行健书院",
+    "theme": "colleges",
+    "direction": "轻巧运动披风，迈步推动风车装置",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-7298ed5731",
+    "name": "求真书院",
+    "theme": "colleges",
+    "direction": "白紫棋盘披肩，端详严密拼合的几何拼图",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-f9f53684ee",
+    "name": "为先书院",
+    "theme": "colleges",
+    "direction": "先锋小旗与工具包，尝试新的机关积木",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-58037f8107",
+    "name": "秀钟书院",
+    "theme": "colleges",
+    "direction": "山形书签与小钟，敲出轻盈的声波环",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-06bd22b79d",
+    "name": "笃实书院",
+    "theme": "colleges",
+    "direction": "厚实帆布背带，认真把基础方砖垒好",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-94815d788d",
+    "name": "至善书院",
+    "theme": "colleges",
+    "direction": "柔和米白披肩，伸手护住发芽的灯盏",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-580a26a9b9",
+    "name": "无穹书院",
+    "theme": "colleges",
+    "direction": "星空小斗篷，指向没有边框的星图",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-813fb121c7",
+    "name": "紫荆书院",
+    "theme": "colleges",
+    "direction": "紫荆花别针，手托盛开的花枝",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-e14e2a9dc8",
+    "name": "自强书院",
+    "theme": "colleges",
+    "direction": "卷袖运动衫，拉动小小上升滑轮",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-d1457c4c54",
+    "name": "水木书院",
+    "theme": "colleges",
+    "direction": "水纹披肩，捧着水面与树组成的盆景",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-bfc0a6f078",
+    "name": "全球创新学院",
+    "theme": "information",
+    "direction": "可折叠旅行工具包，连接不同形状的创意模块",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-25e600fcbd",
+    "name": "国家卓越工程师学院",
+    "theme": "engineering",
+    "direction": "工装与金属胸针，装配大型跨学科工程模型",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-0bbb193b1a",
+    "name": "体育部",
+    "theme": "arts",
+    "direction": "紫色运动发带，抱球站在迷你跑道旁",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-2e3b01a3ed",
+    "name": "艺术教育中心",
+    "theme": "arts",
+    "direction": "指挥棒和乐谱，协调彩色音符雕塑",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-10980fd35e",
+    "name": "数学基础教学中心",
+    "theme": "science",
+    "direction": "手持圆规，摆放从简单到复杂的几何阶梯",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  },
+  {
+    "unitId": "u-efd3d3630b",
+    "name": "出土文献研究与保护中心",
+    "theme": "humanities",
+    "direction": "白手套与护目镜，轻轻整理竹简修复台",
+    "status": "planned",
+    "asset": null,
+    "note": "创作提案；不代表官方吉祥物或专业培养方案"
+  }
+]
